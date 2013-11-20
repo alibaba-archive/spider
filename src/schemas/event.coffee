@@ -8,3 +8,4 @@ module.exports = EventSchema = new Schema
 	description: { type: String }
 	action: { type: String }
 	cost: { type: Number }
+	status: { type: String }
