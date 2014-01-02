@@ -4,6 +4,10 @@ Model = require('./schemas')
 
 class Spider
 
+	constructor: ->
+		@Event = Model.Event
+		@Count = Model.Count
+
 	log: ->
 		Model.Event.create.apply(Model.Event, arguments)
 
